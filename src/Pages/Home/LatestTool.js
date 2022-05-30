@@ -1,7 +1,7 @@
 import React from 'react';
 
-const LatestTool = (latest) => {
-    const { name, price, order, available, description, img } = latest;
+const LatestTool = ({ latest }) => {
+    const { img, name, description, price, order, available } = latest;
 
     return (
         <div class="card card-compact bg-base-100 shadow-xl">

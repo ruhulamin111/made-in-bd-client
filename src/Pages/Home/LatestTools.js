@@ -33,7 +33,7 @@ const LatestTools = () => {
     ];
 
     return (
-        <div className='my-12'>
+        <div className='my-12 '>
             <h1 className='text-center font-bold text-2xl text-primary my-5'>Made in BD Trending Tools</h1>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
