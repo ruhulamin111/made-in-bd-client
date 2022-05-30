@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div class="hero min-h-screen ">
+        <div class="hero ">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img src="https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg" alt='' />
                 <div>
