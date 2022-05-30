@@ -8,6 +8,8 @@ import Home from './Pages/Home/Home';
 import Footer from './Pages/Shared/Footer';
 import Header from './Pages/Shared/Header';
 import NotFound from './Pages/Shared/NotFound';
+import SignIn from './Pages/SignIn/SignIn';
+import SignUp from './Pages/SignIn/SignUp';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/signin' element={<SignIn></SignIn>}></Route>
+        <Route path='/signun' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
