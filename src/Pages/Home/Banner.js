@@ -4,10 +4,11 @@ const Banner = () => {
     return (
         <div class="hero min-h-screen ">
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                <img src="https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg" alt='' />
                 <div>
-                    <h1 class="text-5xl font-bold">Box Office News!</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <h1 class="text-5xl font-bold py-5">Made in BD</h1>
+                    <h1 class="text-3xl font-bold">Manufacturing Tools Company</h1>
+                    <p class="py-5">MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.</p>
                     <button class="btn btn-primary">Get Started</button>
                 </div>
             </div>

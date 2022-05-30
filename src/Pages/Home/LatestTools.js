@@ -1,50 +1,50 @@
 import React from 'react';
-import Tool from './Tool';
+import LatestTool from './LatestTool';
 
-const Tools = () => {
-    const tools = [
+const LatestTools = () => {
+    const latests = [
         {
             _id: 1,
-            name: 'Machinery',
+            name: 'Bearing ',
             description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
+            order: 200,
+            available: 1000,
             price: 100,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
+            img: 'https://i.ibb.co/mH7ZsNS/elena-rouame-9-JU2-CKqtw0-M-unsplash.jpg'
         },
         {
             _id: 2,
-            name: 'Electric',
+            name: 'Rotary Pump',
             description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
+            order: 200,
+            available: 1000,
             price: 200,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
+            img: 'https://i.ibb.co/mH7ZsNS/elena-rouame-9-JU2-CKqtw0-M-unsplash.jpg'
         },
         {
             _id: 3,
-            name: 'Printing',
+            name: 'Auto Parts',
             description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
+            order: 200,
+            available: 1000,
             price: 300,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
+            img: 'https://i.ibb.co/mH7ZsNS/elena-rouame-9-JU2-CKqtw0-M-unsplash.jpg'
         }
-    ]
+    ];
 
     return (
         <div className='my-12'>
-            <h1 className='text-center font-bold text-2xl text-primary my-5'>Made in BD Tools</h1>
+            <h1 className='text-center font-bold text-2xl text-primary my-5'>Made in BD Trending Tools</h1>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
-                    tools.map(tool => <Tool
-                        key={tool._id}
-                        tool={tool}
-                    ></Tool>)
+                    latests.map(latest => <LatestTool
+                        key={latest._id}
+                        latest={latest}
+                    ></LatestTool>)
                 }
             </div>
         </div>
     );
 };
 
-export default Tools;
+export default LatestTools;
