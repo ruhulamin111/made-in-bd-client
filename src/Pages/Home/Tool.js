@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Tool = ({ tool }) => {
-    const { name, price, order, available, description, img } = tool;
+    const { name, img, description, price, order, available } = tool;
 
     return (
         <div class="card card-compact bg-base-100 shadow-xl">

@@ -1,10 +1,10 @@
 # Made in Bd
 
-## Live site: 
+## Live site: https://made-in-bd-970d3.web.app/
 
 ## Client side code: https://github.com/programming-hero-web-course1/manufacturer-website-client-side-ruhulamin111
 
-## Server side code: 
+## Server side code: https://github.com/programming-hero-web-course1/manufacturer-website-server-side-ruhulamin111
 
 ## About this site.
 * This is tools manufactured website. 

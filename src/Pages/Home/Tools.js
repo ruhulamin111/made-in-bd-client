@@ -1,36 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Tool from './Tool';
 
 const Tools = () => {
-    const tools = [
-        {
-            _id: 1,
-            name: 'Machinery',
-            description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
-            price: 100,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
-        },
-        {
-            _id: 2,
-            name: 'Electric',
-            description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
-            price: 200,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
-        },
-        {
-            _id: 3,
-            name: 'Printing',
-            description: 'MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.',
-            order: 100,
-            available: 500,
-            price: 300,
-            img: 'https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg'
-        }
-    ]
+    const [tools, setTools] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:5000/tool')
+            .then(res => res.json())
+            .then(data => setTools(data))
+    }, [])
 
     return (
         <div className='my-12'>

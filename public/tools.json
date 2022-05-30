@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Machinery",
+        "description": "MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.",
+        "order": 100,
+        "available": 500,
+        "price": 100,
+        "img": "https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg"
+    },
+    {
+        "name": "Electric",
+        "description": "MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.",
+        "order": 100,
+        "available": 500,
+        "price": 200,
+        "img": "https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg"
+    },
+    {
+        "name": "Printing",
+        "description": "MachineryScanner is the only third-party review system dedicated to your industry. Our system helps you take control of your image and online reputation.",
+        "order": 100,
+        "available": 500,
+        "price": 300,
+        "img": "https://i.ibb.co/qdSZdQ4/denny-muller-GZc6np-HL5-Wk-unsplash-1-1.jpg"
+    }
+]
